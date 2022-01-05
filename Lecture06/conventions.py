@@ -1,21 +1,32 @@
-import argparse # <---- imports are always at the top, for easy management
-from utils import *
 
+def string_comparison_method(first_string: str, second_string: str) -> str:
+    """ This is a string that explains what the method does. It is called 
+    docstring. In this method we compare two strings to see if the content is 
+    the same
+    
+    Args:
+        first_string (str): the first string to be compared
+        second_string (str): the second string to be compared
+    """
+    try:
+        if first_string.lower() == second_string.lower():
+            message = "The strings are saying the same thing! :)"
+        else:
+            message = "The strings are not saying the same thing.. :("
+    except AttributeError:
+        message = "Hmm, one of your entries were not a string at all :("
 
-def main(first_name, last_name, all_capital):
-    first_name, last_name = change_name_representation(args.first_name, args.surname, args.all_capital)
-    age = pair_with_age(first_name, last_name)
+    return message
+
+def main():
+    print("I'm in the main method")
+    
+    a = 100
+    b = 1000
+    print(a/b)
+
+    string_to_print = string_comparison_method("hello world", "Hello World")
+    print(string_to_print)
 
 if __name__ == "__main__":
-    # Sometimes we wish to take the user input also through the terminal.
-    # A useful library for doing this easily is argparse.
-    parser = argparse.ArgumentParser(description='Process some integers.')
-    parser.add_argument('--first-name', help='Enter your first name please', required=True)
-    parser.add_argument('--surname', help='Enter you surname please')
-    parser.add_argument('--all-capital', dest='all_capital', action = 'store_true')
-    parser.set_defaults(all_capital=False)
-    args = parser.parse_args()
-    print(args.first_name, args.surname, args.all_capital)
-
-    main(args.first_name, args.surname, args.all_capital)
-
+    main()
