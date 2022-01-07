@@ -48,6 +48,15 @@ Det är ett repository för kursen. För att få ner det lokalt på din dator be
 
 I mappen du står i finns det en fil som heter requirements.txt. Den filen innehåller en lista på pythonpaket som du ska installera i din conda environment. 
 
+Mappen kommer uppdateras och för att få de senaste ändringarna använder ni git pull
+
+	git pull
+
+Om ni väljer att jobba i detta repositroy, vilket kan vara skönt med all kursmaterial lättillgänglig, kan ni inte pusha egna ändringar till repot. Ni kan dock committa till er lokala Git repo och ha det sparat lokalt. 
+
+	git add FILE_NAME
+	git commit -m "comment about changes"
+
 Om du vill kunna ladda ner de senaste ändringarna i kursens GitHub repo, men bara får en massa erorrs, följ dessa steg:
 
 #### 1. git status
