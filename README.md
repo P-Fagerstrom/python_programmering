@@ -93,6 +93,19 @@ När du inte har några filer kvar under __changes not staged for commit__ så k
 	git pull
 
 
+## Forking
+
+Om ni vill pusha upp era commits någonstans så att de är sparade på GitHub molnet så kan ni forka repot och klona eran fork istället.
+
+ - [Generellt om fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks)
+ - [Hur man gör en fork](https://docs.github.com/en/enterprise-server@3.0/get-started/quickstart/fork-a-repo)
+ - [Hur man håller koll på origanl repo och fork samtidigt med remote](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-for-a-fork)
+ - [Hur man hämtar ner det senaste lärare gjort på föreläsningsrepo (fetch)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
+ - [Föra in det senaste läraren har gjort till ditt egna arbete (merge)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/merging-an-upstream-repository-into-your-fork )
+ - [Hur ändra till fork om man redan har kopierat (copy) ett repo](https://admcpr.com/what-the-fork/)
+
+
+
 ## Kurslitteratur
 
 Vi kommer använda många olika resurser för att lära oss om python, men vi kommer till stor del att använda oss av Jake VanderPlas *A whirlwind tour of python* och *Python data science handbook*. 
