@@ -1,2 +1,9 @@
-numpy
 matplotlib
+numpy
+opencv-python
+pandas
+pathlib
+pytest
+scikit-learn
+scipy
+seaborn
