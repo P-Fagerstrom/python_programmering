@@ -30,6 +30,21 @@ När du ser att din `requirements.txt`-fil finns så kör du
 2. Sök på 'Jupyter: Create New Blank Notebook' och välj det
 3. I övre högra hörnet finns en knapp för att välja kernel. Tryck på den och sök på din NEW_ENV
 
+## TIPS: Ta bort environments
+För att se vilka enviroments som finns skapat skriva 
+
+	conda env list
+
+För att radera ett environment börja med att deaktivera det enviromentet så att man är i (base)
+
+	conda deactivate
+
+För att radera ett environment skriva
+
+	conda env remove --name ENV_NAME
+
+ENV_NAME är namnet på environmentet som ska raderas.
+
 ## TIPS: git + kursens repo = sant
 
 Det är ett repository för kursen. För att få ner det lokalt på din dator behöver du öppna en terminal och använda git-kommandon enligt följande instruktioner:
