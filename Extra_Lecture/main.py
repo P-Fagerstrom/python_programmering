@@ -1,6 +1,9 @@
 import argparse
 import string_manipulators
 
+# Run code from terminal by activating python enviromen, change directory to same as main.py
+# and run code by typing in terminal: python main.py -h
+# -h  is help function to provide which arguments to use, ex --first-name eva
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process some integers.')
     parser.add_argument('--first-name', help='Enter your first name please', required=True)
