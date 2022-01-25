@@ -1,4 +1,4 @@
-Försök att göra en eda på ett dataset. 
+Försök att göra en Exploratory data analysis på ett dataset. 
 Ni kan registrera er på kaggle för att hitta något ni tycker verkar intressant, eller så kan ni använda er av data1.csv, data2.csv, data3.csv eller data4.csv här i repot.
 
 
@@ -16,3 +16,6 @@ Vad man kan göra här(det behöver inte vara exakt det jag gjorde på föreläs
 - Visualisera förhållanden i data (t.ex. korrelation, relplot)
 - Visualisera distribution av data(Barplot av kategoriska värden, histplot av numeriska)
 - etc... :)
+
+
+Data Camp kurs: Exploratory Data Analysis in Python

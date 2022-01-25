@@ -132,4 +132,9 @@ Länkar till böckerna:
 
 
 
+## Data Camp
 
+Vi har ett premium medlemskap till Data Camp Classroom. Data Camp är en platform med kurser och övningar inom Data Science. Denna kan ni använda för att komplettera utbildningen. 
+
+För att få fri tillång måste ni följa denna länken [Data Camp Classroom](https://www.datacamp.com/groups/shared_links/1e9ec73fbf3dd46f0a0a9c8a9e773774c7ad2add6677109d698782ea059a2ae3) och skapa ett konto med studentmailen *@utb.ecutbildning.se*  
+ 
