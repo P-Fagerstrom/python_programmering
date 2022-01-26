@@ -4,10 +4,6 @@ def change_name_representation(first_name: str, surname: str, all_capital: bool)
     Args:
         first_name (str): first name to be capitalized
         surname (str): last name to be capitalized
-        all_capital (bool): decide is all letters are capital
-        
-    Return: 
-        first_name, last_name
     """
     if all_capital:
         first_name = first_name.upper()
