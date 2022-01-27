@@ -4,3 +4,5 @@
 2. Försök att debugga filerna debug_1-5 med hjälp av VScode debugger.
 Behöver du veta mer om debuggern kan du titta på denna video!
 - https://www.youtube.com/watch?v=w8QHoVam1-I 
+
+3. Data Camp - Unit Testing for Data Science in Python
