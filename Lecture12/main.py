@@ -14,3 +14,4 @@ if __name__ == "__main__":
     print(args.first_name, args.surname)
 
     first_name, last_name = string_manipulators.change_name_representation(args.first_name, args.surname, args.all_capital)
+    print(first_name, last_name)

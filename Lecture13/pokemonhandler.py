@@ -2,12 +2,11 @@ import pandas as pd
 from argparse import ArgumentParser
 import seaborn as sns
 import matplotlib.pyplot as plt
-from pathlib import Path
 
 class PokemonHandler:
 
     def __init__(self):
-        p = Path(__file__).resolve().parents[2] / 'week_3\lectures\Pokemon.csv'
+        p = 'Pokemon.csv'
         self.df = pd.read_csv(p)
 
         self._preprocess()
@@ -22,7 +21,6 @@ class PokemonHandler:
 
 
     def compare(self, pokemon1, pokemon2):
-
         # Check valid pokemon namespace
         names = self.df['Name'].values
         if pokemon1 in names and pokemon2 in names:

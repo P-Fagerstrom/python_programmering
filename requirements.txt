@@ -1,11 +1,16 @@
 argparse
+fastapi
 flask
 matplotlib
 numpy
 opencv-python
 pandas
 pathlib
+pydantic
 pytest
+requests
 scikit-learn
 scipy
 seaborn
+uvicorn
+
