@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 class PokemonHandler:
 
     def __init__(self):
-        p = 'Pokemon.csv'
-        self.df = pd.read_csv(p)
+        path = 'Pokemon.csv'
+        self.df = pd.read_csv(path)
 
         self._preprocess()
 
